@@ -9,5 +9,6 @@ RUN git clone https://github.com/geoHeil/geomesa-tutorials.git
 WORKDIR geomesa-tutorials
 RUN mvn clean install -pl geomesa-quickstart-accumulo
 
-ENTRYPOINT bash
-CMD bash
+# hack to keep it running
+ENTRYPOINT ["top", "-b"]
+CMD ["-c"]

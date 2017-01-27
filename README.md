@@ -4,5 +4,5 @@ GeoMesa Tutorials and Examples
 - added a dockerfile to run the tutorials
 	- build it with
 	```
-	docker build -t eomesaTutorial:1.3.0 .
+	docker build -t geomesa-tutorial:1.3.0 .
 	```
