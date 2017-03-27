@@ -39,14 +39,14 @@
 
         <!-- environment specific variables-->
         <accumulo.version>1.8.0</accumulo.version>
-        <zookeeper.version>3.4.5</zookeeper.version>
-        <hadoop.version>2.5.2</hadoop.version>
+        <zookeeper.version>3.4.6</zookeeper.version>
+        <hadoop.version>2.7.3</hadoop.version>
         <hbase.hadoop.version>2.5.2</hbase.hadoop.version>
         <kafka10.version>0.10.0.1</kafka10.version>
         <kafka09.version>0.9.0.1</kafka09.version>
         <kafka08.version>0.8.2.1</kafka08.version>
         <storm.version>1.0.2</storm.version>
-        <hbase.version>1.1.5</hbase.version>
+        <hbase.version>1.1.2</hbase.version>
         <curator.version>2.11.0</curator.version>
     </properties>
 
